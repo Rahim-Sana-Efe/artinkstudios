@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Horizon;
+    src: url('horizon.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+  font-family: 'Horizon', sans-serif;
+  background: linear-gradient(90deg, #004aad, #cb6ce6);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    font-family: 'Horizon', 'sans-serif'; 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 25px; 
+    font-weight: 600; 
+    color: white;
+}
+
+li{
+    list-style: none; 
+    display: inline-block;
+}
+
+li a{
+    color: white; 
+    font-size: 14px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
+
+button{
+    background-color: black; 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 90px;
+}
+
+button a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    height: auto;
+    padding: 20px;
+}
+
+#banner {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+}
+
+.outer-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    padding: 20px;
+}
+
+#top-div {
+    color: white;
+    text-align: center;
+}
+
+#btn {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    color: white;
+    width: 150px;
+    font-family: 'Horizon', sans-serif;
+    border-radius: 1000px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    outline: 2px solid white;
+    border: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#btn:hover {
+    transform: scale(1.2);
+}
+
+.inner-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    gap: 120px;
+    padding: 20px;
+    border-radius: 40px;
+}
+#left-div1, #right-div2 {
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#left-div1 img, #right-div2 img {
+    padding: 10px;
+    max-height: 500px;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+#left-div1-btn, #right-div2-btn {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    color: white;
+    width: 150px;
+    font-family: 'Horizon', sans-serif;
+    border-radius: 1000px; 
+    outline: 2px solid white;
+    border: white;  
+}
+
+.FooterContainer {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.SocialIcons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 28px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+  
+  .SocialIcons a:hover {
+    color: #004aad;
+    transform: scale(1.2);
+}
+  
+  .FooterText {
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: 'Horizon', 'sans-serif';
+}
+
+
+@media (max-width: 1024px) {
+    .inner-flex-container {
+    gap: 30px;
+}
+
+#btn {
+    width: auto;
+}
+
+#banner {
+    width: 100%;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.logo a {
+    font-size: 22px;
+}}
+
+
+@media (min-width: 1200px) {
+    .inner-flex-container {
+    gap: 50px;
+}
+
+#btn {
+    width: 150px;
+}
+
+#banner {
+    max-width: 1100px;
+}}
