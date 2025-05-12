@@ -136,6 +136,28 @@ h1 {
     border: 1px solid #004aad;
 }
 
+.pagenav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-btn {
+    display: inline-block;
+    background-color: #004aad;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-btn:hover {
+    background-color: #cb6ce6;
+    color: white;
+}
+
 .FooterContainer {
     padding: 0 20px;
     text-align: center;
