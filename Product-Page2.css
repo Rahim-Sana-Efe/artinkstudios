@@ -1,0 +1,162 @@
+@font-face {
+    font-family: Horizon;
+    src: url('../Homepage - Rahim/horizon.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Horizon', sans-serif;
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+  }
+
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    font-family: 'Horizon', 'sans-serif'; 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 25px; 
+    font-weight: 600; 
+    color: white;
+}
+li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    color: white; 
+    font-size: 14px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
+button{
+    background-color: black; 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 90px;
+}
+button a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    height: auto;
+    padding: 20px;
+    border: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    padding: 60px;
+    justify-items: center;
+}
+
+.album, .by {
+    color: white;
+    font-size: 1rem;
+}
+
+.artist {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.product-item {
+    border-radius: 20px;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Horizon', sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.price-btn {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    color: white;
+    width: 150px;
+    font-family: 'Horizon', sans-serif;
+    border-radius: 1000px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    outline: 2px solid white;
+    border: white;
+}
+
+.price-btn:hover {
+    background: white;
+    color: #004aad;
+    border: 1px solid #004aad;
+}
+
+.FooterContainer {
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.SocialIcons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 28px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+  
+  .SocialIcons a:hover {
+    color: #004aad;
+    transform: scale(1.2);
+}
+  
+  .FooterText {
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: 'Horizon', 'sans-serif';
+}

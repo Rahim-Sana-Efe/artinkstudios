@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Horizon;
+  src: url('') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+body {
+font-family: 'Horizon', sans-serif;
+background: linear-gradient(90deg, #004aad, #cb6ce6);
+}
+
+*{
+  text-decoration: none;
+}
+.navbar{
+  background: linear-gradient(90deg, #004aad, #cb6ce6);
+  font-family: 'Horizon', 'sans-serif'; 
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv{
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.logo a{
+  font-size: 25px; 
+  font-weight: 600; 
+  color: white;
+}
+
+
+li{
+  list-style: none; 
+  display: inline-block;
+}
+li a{
+  color: white; 
+  font-size: 14px; 
+  font-weight: bold; 
+  margin-right: 25px;
+}
+button{
+  background-color: black; 
+  margin-left: 10px; 
+  border-radius: 10px; 
+  padding: 10px; 
+  width: 90px;
+}
+button a{
+  color: white; 
+  font-weight: bold; 
+  font-size: 15px;
+}
+
+
+
+.FooterContainer {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.SocialIcons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 28px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+  
+  .SocialIcons a:hover {
+    color: #004aad;
+    transform: scale(1.2);
+}
+  
+  .FooterText {
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: 'Horizon', 'sans-serif';
+}
+
+body {
+  background: linear-gradient(90deg, #004aad, #cb6ce6);
+}
+h1 {
+  text-align: center;
+  color: white;
+}  
+
+  header {
+      background-color: linear-gradient(90deg, #004aad, #cb6ce6);;
+      color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  footer {
+    background-color:linear-gradient(90deg, #004aad, #cb6ce6);; ;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
