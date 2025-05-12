@@ -1,0 +1,9 @@
+.top-image {
+    width: 200px;
+    height: auto;
+    border-radius: 20px; /* makes corners rounded */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* soft shadow */
+    margin-top: 30px; 
+    margin-bottom: 30px;
+  }
+  
