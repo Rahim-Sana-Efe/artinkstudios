@@ -3,24 +3,93 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="Art Ink Studios - Logo.png">
   <title>Contact Us</title>
   <style>
+    @font-face {
+    font-family: Horizon;
+    src: url('horizon.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+    }
     body {
-      height: 100vh;
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #8d34db, #563ce7, #da37ff);
+      font-family: 'Horizon', sans-serif;
+      background: linear-gradient(90deg, #004aad, #cb6ce6);
       color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
       text-align: center;
     }
 
-    .logo {
-      width: 150px;
+    .MainContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    font-family: 'Horizon', 'sans-serif'; 
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.logo a{
+    font-size: 25px; 
+    font-weight: 600; 
+    color: white;
+}
+
+li{
+    list-style: none; 
+    display: inline-block;
+}
+
+li a{
+    color: white; 
+    font-size: 14px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
+
+button{
+    background-color: black; 
+    margin-left: 10px; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: 90px;
+}
+
+button a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px;
+}
+
+    .banner {
+      width: 100%;
+      max-width: 1100px;
       height: auto;
+      display: block;
       margin-bottom: 20px;
     }
 
@@ -55,15 +124,61 @@
       background: white;
       color: #563ce7;
     }
+
+    .FooterContainer {
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.SocialIcons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 28px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+  
+  .SocialIcons a:hover {
+    color: #004aad;
+    transform: scale(1.2);
+}
+  
+  .FooterText {
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: 'Horizon', 'sans-serif';
+}
+
   </style>
 </head>
 <body>
 
+  <nav class="navbar">
 
-  <img src="Art Ink Studios - Logo (1).png" alt="Website Logo" class="logo" />
+		<div class="navdiv">
+            <div class="logo">
+                <a href="Homepage.html">ArtInk Studios</a>      
+            </div>
+		
+            <ul>
+              <li><a href="Homepage.html">Home</a></li>
+              <li><a href="Product-Page1.html">Shop</a></li>
+              <li><a href="artink.html">About Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="Homework.html">Contact</a></li>
+			      </ul>
+        </div>
+	
+    </nav>
+
+<main class="MainContent">
 
   <h1>Contact Us</h1>
-  <p>We’d love to hear from you! Reach out through any of our socials below:</p>
+  <img src="Art Ink Studios - Banner.png" alt="Website Logo" class="banner"/>
+
+ 
+  <p>We’d love to hear from you!  Reach out through any of our socials below:</p>
 
   <div class="socials">
     <a href="https://www.instagram.com" target="_blank">Instagram</a>
@@ -71,6 +186,20 @@
     <a href="https://www.facebook.com" target="_blank">Facebook</a>
     <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
   </div>
+</main>
+
+  <footer class="FooterContainer">
+    <div class="SocialIcons">
+      <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://tiktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:your@email.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <div class="FooterText">
+      © 2025 ArtInk Studios. All rights reserved.
+    </div>
+  </footer>
 
 </body>
 </html>
