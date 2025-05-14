@@ -5,6 +5,19 @@ body {
   color: rgb(250, 232, 232);
 }
 
+.navbar{
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    font-family: 'Horizon', 'sans-serif'; 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
 
 header {
   text-align: center;
