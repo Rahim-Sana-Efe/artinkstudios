@@ -170,39 +170,3 @@ button a{
     margin-top: 20px;
     font-family: 'Horizon', 'sans-serif';
 }
-
-
-@media (max-width: 1024px) {
-    .inner-flex-container {
-    gap: 30px;
-}
-
-#btn {
-    width: auto;
-}
-
-#banner {
-    width: 100%;
-}
-
-.navbar {
-    padding: 15px;
-}
-
-.logo a {
-    font-size: 22px;
-}}
-
-
-@media (min-width: 1200px) {
-    .inner-flex-container {
-    gap: 50px;
-}
-
-#btn {
-    width: 150px;
-}
-
-#banner {
-    max-width: 1100px;
-}}
